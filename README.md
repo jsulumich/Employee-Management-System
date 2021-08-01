@@ -14,8 +14,13 @@ as well as pull several reports.
 - A report of all employees in a specified department
 - A report of all employees in a specified role
 
+
+**Application ER Diagram**
+
+![Application ER Diagram](images/app_er_diagram.jpg)
+
 **Database Requirements**
-<br>The database will store the following information for all employees
+<br>The database will store the following information for all employees:
  - A unique employee ID
 - First and last name
 - Address
@@ -25,23 +30,29 @@ as well as pull several reports.
 - last date of employment (if applicable)
 - The department of the employee
 - The role of the employee
-The database will additionally store the following information for HR employees only, to be used for logging into the system.
+
+<br>The database will additionally store the following information for HR employees only, to be used for logging into the system.
 - Username
 - Password
 - Last login date and time
 - Status of the login account (active/inactive)
-<br>HR employees must have an employee account for a login to be created.
-<br>An employee is assigned to one department and one role
+
 <br>The database will store the following information for each department:
 - A unique department ID
 - The department name
-- The database will store the following information for each role:
+
+<br>The database will store the following information for each role:
 - A unique role ID
 - The role name
-<br>Many employees can be assigned to the same role.
-<br>The same role can exist across multiple departments
 
-**Application ER Diagram**
+**Additional Requirements**
+
+- HR employees must have an employee account for a login to be created.
+- An employee is assigned to one department and one role
+- Many employees can be assigned to the same role.
+- The same role can exist across multiple departments
 
 **Database ER Diagram**
+
+![Database ER Diagram](images/er_diagram.jpg)
 
