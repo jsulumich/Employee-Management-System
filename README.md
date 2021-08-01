@@ -14,8 +14,8 @@ as well as pull several reports.
 - HR employees cannot update their own profile
 - If a HR employee leaves the company (i.e. their last date of employment is entered), their account is de-activated and they will no longer have access to login to the system.
 - HR employees can pull two reports through the application:
-- A report of all employees in a specified department
-- A report of all employees in a specified role
+   - A report of all employees in a specified department
+   - A report of all employees in a specified role
 
 
 **Application ER Diagram**
@@ -49,14 +49,12 @@ as well as pull several reports.
 - The role name
 
 **Additional Requirements**
-
 - HR employees must have an employee account for a login to be created.
 - An employee is assigned to one department and one role
 - Many employees can be assigned to the same role.
 - The same role can exist across multiple departments
 
 **Database ER Diagram**
-
 ![Database ER Diagram](images/er_diagram.jpg)
 
 # View program demo [here](https://youtu.be/shu0n6grI5o)
