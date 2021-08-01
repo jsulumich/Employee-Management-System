@@ -2,7 +2,8 @@
 
 # View program demo [here](https://youtu.be/shu0n6grI5o)
 
-A C# windows console application that connects to a local mySQL database. Used to simulate an employee management system where HR can create and manage employee profiles,
+**Description**
+<br>A C# windows console application that connects to a local mySQL database. Used to simulate an employee management system where HR can create and manage employee profiles,
 as well as pull several reports.
 
 **Application Requirements**
